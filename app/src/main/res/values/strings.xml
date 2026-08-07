@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">محاسبة العيادة</string>
+    <string name="clinic_full_title">النظام المحاسبي لعيادة الأسنان</string>
+    <string name="doctor_name">د. مالك الرميمة</string>
+</resources>
