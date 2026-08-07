@@ -59,7 +59,7 @@ class ClinicViewModel(application: Application) : AndroidViewModel(application) 
     val dentalLabsList: StateFlow<List<DentalLabEntity>> = repository.allDentalLabs
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
 
-    val dentalSuppliesList: StateFlow<List<DentalSupplierEntity>> = repository.allDentalSupplies
+    val dentalSuppliesList: StateFlow<List<DentalSupplierEntity>> = repository.allDentalSuppliers
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
 
     val expensesList: StateFlow<List<ExpenseEntity>> = repository.allExpenses
